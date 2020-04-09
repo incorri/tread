@@ -7,15 +7,6 @@ import java.util.concurrent.CountDownLatch;
 
 public class Main {
     private static int finalCount = 0;
-    private int calkCount = 0;
-
-    public int getCalkCount() {
-        return calkCount;
-    }
-
-    public void setCalkCount(int calkCount) {
-        this.calkCount = calkCount;
-    }
 
     public static void main(String[] args) throws InterruptedException {
         args = new String[]{"100", "4"};

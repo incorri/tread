@@ -4,7 +4,6 @@ import java.util.concurrent.CountDownLatch;
 
 public class MyThread extends Thread {
     private int finalCount = 0;
-//    private static int calcCount = 0;
     private CountDownLatch latch;
 
     public MyThread(int finalCount, CountDownLatch latch) {
