@@ -1,7 +1,7 @@
 package test.thread;
 
 public class MyThread extends Thread {
-    private static int finalCount = 0;
+    private int finalCount = 0;
     private static int calcCount = 0;
 
     public MyThread(int finalCount) {
